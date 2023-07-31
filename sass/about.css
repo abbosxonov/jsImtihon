@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;600&family=Mulish&family=Orbitron&family=Roboto&family=Sen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Montserrat:wght@400;600&family=Mulish&family=Orbitron&family=Roboto&family=Sen&display=swap");
+body {
+  font-family: "Sen";
+}
+
+header {
+  background-color: #232536;
+  padding: 0 100px;
+}
+
+.navbat-item li a {
+  color: white;
+}
+
+.navbat-item li a:hover {
+  color: rgb(189, 187, 187);
+}
+
+.navbat-item li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: #232536;
+}
+
+.inter-fin {
+  color: rgb(193, 191, 191);
+}
+
+.fintown {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 750px;
+}
+
+.rasm-fut {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.login {
+  background-color: white;
+  padding: 6px 20px;
+  border-radius: 2px;
+  color: #232536 !important;
+}
+
+.login:hover {
+  color: rgb(147, 146, 146) !important;
+}
+
+.missionleft h4 {
+  color: var(--black, #232536);
+  /* Cap 1 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 125% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.missionleft h2 {
+  color: var(--black, #232536);
+  /* Heading H3 */
+  font-family: Sen;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 142.857% */
+  letter-spacing: -1px;
+}
+
+.missionleft p {
+  color: var(--medium-grey, #6d6e76);
+  /* Body 1 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.missionleft {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.conatiner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 100px 30px;
+  background: var(--lavender, #f4f0f8);
+}
+
+.birlikchap h2,
+.startin h2 {
+  color: #232536;
+  /* Heading H2 */
+  font-family: Sen;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 133.333% */
+  letter-spacing: -2px;
+}
+
+.birlikchap h5,
+.startin h5 {
+  color: var(--black, #232536);
+  /* Heading H4 */
+  font-family: Sen;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+
+.birlikchap p,
+.startin p {
+  color: var(--black, #232536);
+  /* Body 1 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.birlikchap img,
+.startin img {
+  width: 600px;
+}
+
+.birlikchap,
+.startin {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.birlik,
+.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 100px 0;
+}
+
+.misino {
+  margin-top: 60px;
+}/*# sourceMappingURL=about.css.map */

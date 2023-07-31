@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;600&family=Mulish&family=Orbitron&family=Roboto&family=Sen&display=swap");
+
+body {
+  font-family: "Sen";
+}
+
+header {
+  background-color: #232536;
+  padding: 0 100px;
+}
+
+.navbat-item li a {
+  color: white;
+}
+
+.navbat-item li a:hover {
+  color: rgb(189, 187, 187);
+}
+
+.navbat-item li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  background-color: white;
+  padding: 6px 20px;
+  border-radius: 2px;
+  color: #232536 !important;
+}
+
+.login:hover {
+  color: rgb(147, 146, 146) !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+#registerForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#register {
+  background: var(--yellow, #ffd050);
+  padding-left: 120px;
+  padding-right: 120px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+  padding: 60px 0;
+}
+
+/* ////////////////////////////// */
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#submit {
+  background-color: #ffd050;
+  padding: 6px 150px;
+  border-radius: 2px;
+  color: #232536;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+footer {
+  background-color: #232536;
+}
+
+.inter-fin {
+  color: rgb(193, 191, 191);
+}
+
+.fintown {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 750px;
+}
+
+.rasm-fut {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.active {
+  padding: 6px 100px;
+  background-color: #45a049;
+  color: #f8fafa;
+  border-radius: 2px;
+}
+
+.kirish {
+  padding: 6px 100px;
+  background-color: #45a049;
+  color: #f8fafa;
+  border-radius: 2px;
+  display: none;
+}
