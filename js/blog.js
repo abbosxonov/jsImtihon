@@ -28,4 +28,7 @@ fetch(url)
     console.log("Xatolik yuz berdi:", error);
   });
 
-const localget = document.getElementsByClassName("card");
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}

@@ -28,3 +28,8 @@ fetch(url)
   .catch((error) => {
     console.log("Xatolik yuz berdi:", error);
   });
+
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}

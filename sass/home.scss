@@ -9,6 +9,8 @@ body {
 header {
   background-color: #232536;
   padding: 0 100px;
+  position: fixed;
+  width: 100%;
 }
 
 .navbat-item li a {
@@ -332,4 +334,13 @@ footer {
 
 .post-blog {
   padding: 100px 0;
+}
+
+.dark-mode {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+section {
+  padding-top: 60px;
 }

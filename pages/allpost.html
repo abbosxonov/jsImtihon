@@ -49,6 +49,27 @@
               <li class="nav-item">
                 <a class="nav-link login me-4" href="./login.html">Login</a>
               </li>
+              <li>
+                <button
+                  onclick="myFunction()"
+                  style="
+                    border: none;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                  "
+                >
+                  <img
+                    style="
+                      width: 30px;
+                      height: 30px;
+                      background-color: transparent;
+                    "
+                    src="../img/dark.png"
+                    alt=""
+                  />
+                </button>
+              </li>
             </ul>
           </div>
         </div>
@@ -89,6 +110,11 @@
         </div>
       </div>
     </footer>
-    <script src="../js/post.js"></script>
+    <script src="../js/post.js">
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
   </body>
 </html>
